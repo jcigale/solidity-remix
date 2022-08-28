@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "creatSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleStorageArray",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StorageFactory.sol": {
+			"keccak256": "0xfd63f0ecc498acc957a50b79bc1534759a94a55d642f1881f89d0d28a6f4a55a",
+			"urls": [
+				"bzz-raw://0cf017725c08bb4ed502e3998647354753e504d9cfc842673f9beb23fae72f68",
+				"dweb:/ipfs/QmeLVuBYEGhHL7BPRncuuq5e8oHJ9xsa213XpjSY5cmbFT"
+			]
+		},
+		"contracts/simple_storage.sol": {
+			"keccak256": "0x1444f84ad01ff985ab0b296e031a2534a3c580f7bbdc2322b9374b2af1137cb8",
+			"urls": [
+				"bzz-raw://07f5c8378eac754bf1c46c12399aab025582da8fe379e31c97565427bde3d67c",
+				"dweb:/ipfs/QmQCDBPvohNW4DRXo12yLtn8oabva9YVTJeGHTqPL43EcU"
+			]
+		}
+	},
+	"version": 1
+}
